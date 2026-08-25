@@ -1,54 +1,96 @@
-## Publications
+<h2 id="publications" style="margin: 2px 0px -15px;">Publications</h2>
 
-### Journal Articles
+<div class="publications">
+<ol class="bibliography">
 
-1. **Speeding-up Graph Algorithms via Parallel Randomized Clique Partitioning**  
-   A. Chavan, **S. Rabinia**, D. Grosu, M. Brocanelli.  
-   *IEEE Transactions on Parallel and Distributed Systems (TPDS)*, 2026. Submitted.
+{% for link in site.data.publications.main %}
 
-2. **Speeding-Up Graph Algorithms via Clique Partitioning**  
-   A. Chavan, **S. Rabinia**, D. Grosu, M. Brocanelli.  
-   *Networks*, Vol. 88, No. 1, pp. 85–98, July 2026. Accepted.
+<li>
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    {% if link.image %} 
+    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" style="width=100;height=40%">
+    {% if link.conference_short %} 
+    <abbr class="badge">{{ link.conference_short }}</abbr>
+    {% endif %}
+    {% endif %}
+  </div>
 
-3. **Online Algorithms for Data Sharing-Aware Task Allocation in Edge Computing Systems**  
-   **S. Rabinia**, D. Grosu.  
-   *IEEE Transactions on Cloud Computing (TCC)*, 2026. Accepted.
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
 
-4. **Algorithms for Data Sharing-Aware Task Allocation in Edge Computing Systems**  
-   **S. Rabinia**, N. Didar, D. Grosu, M. Brocanelli.  
-   *IEEE Transactions on Parallel and Distributed Systems (TPDS)*, 2024. Accepted.
+    <div class="title">
+      <a href="{{ link.pdf }}">{{ link.title }}</a>
+    </div>
 
-5. **Machine Learning Approach to Forecast Work Zone Mobility using Probe Vehicle Data**  
-   M. Kamyab, S. Remias, E. Najmi, **S. Rabinia**, J. M. Waddell.  
-   *Transportation Research Record*, SAGE Publications, 2020. Accepted.
+    <div class="author">
+      {{ link.authors }}
+    </div>
 
-### Conference Papers
+    <div class="periodical">
+      <em>{{ link.conference }}</em>
+    </div>
 
-1. **Data Sharing-Aware Online Algorithms for Task Allocation in Edge Computing Systems**  
-   **S. Rabinia**, D. Grosu.  
-   *IEEE International Conference on Edge Computing (EDGE)*, 2024. Accepted.
+    <div class="links">
 
-2. **Data Sharing-Aware Algorithms for Task Allocation in Edge Computing Systems**  
-   **S. Rabinia**, D. Grosu.  
-   *IEEE International Symposium on Cluster, Cloud, and Internet Computing (CCGrid)*, 2024. Accepted.
+      {% if link.pdf %} 
+      <a href="{{ link.pdf }}"
+         class="btn btn-sm z-depth-0"
+         role="button"
+         target="_blank"
+         style="font-size:12px;">
+         PDF
+      </a>
+      {% endif %}
 
-3. **Data Sharing-Aware Task Allocation in Edge Computing Systems**  
-   **S. Rabinia**, H. Mehryar, M. Brocanelli, D. Grosu.  
-   *IEEE International Conference on Edge Computing (EDGE)*, 2021. Accepted.
+      {% if link.code %} 
+      <a href="{{ link.code }}"
+         class="btn btn-sm z-depth-0"
+         role="button"
+         target="_blank"
+         style="font-size:12px;">
+         Code
+      </a>
+      {% endif %}
 
-### Book Chapters
+      {% if link.page %} 
+      <a href="{{ link.page }}"
+         class="btn btn-sm z-depth-0"
+         role="button"
+         target="_blank"
+         style="font-size:12px;">
+         Project Page
+      </a>
+      {% endif %}
 
-1. **A Comprehensive Study of Game Theory Applications for Smart Grids and Demand Side Management Programs, and Transportation Networks**  
-   A. Mohammadi, **S. Rabinia**.  
-   *Smart Microgrids*, pp. 57–64, Springer, 2019. Accepted.
+      {% if link.bibtex %} 
+      <a href="{{ link.bibtex }}"
+         class="btn btn-sm z-depth-0"
+         role="button"
+         target="_blank"
+         style="font-size:12px;">
+         BibTex
+      </a>
+      {% endif %}
 
-### Selected Posters
+      {% if link.notes %} 
+      <strong>
+        <i style="color:#e74d3c">{{ link.notes }}</i>
+      </strong>
+      {% endif %}
 
-1. **Data Sharing-Aware Online Algorithms for Task Allocation in Edge Computing Systems**  
-   **S. Rabinia**, D. Grosu. *CMD-IT/Tapia Conference*, September 2024.
+      {% if link.others %} 
+      {{ link.others }}
+      {% endif %}
 
-2. **Parallel Fixed-Parameter Tractable Algorithms**  
-   **S. Rabinia**, D. Grosu. *CRA-WP Grad Cohort, Computing Research Association Women Workshop*, April 2021.
+    </div>
 
-3. **Data Sharing-Aware Task Allocation in Edge Computing Systems**  
-   **S. Rabinia**, H. Mehryar, M. Brocanelli, D. Grosu. *CRA-WP Grad Cohort, Computing Research Association Women Workshop*, April 2022.
+  </div>
+</div>
+</li>
+
+<br>
+
+{% endfor %}
+
+</ol>
+</div>
