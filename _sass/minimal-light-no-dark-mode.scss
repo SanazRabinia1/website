@@ -1,7 +1,17 @@
+/* =========================
+   General Page
+   ========================= */
+
+body {
+  background-color: #ffffff;
+  color: #727272;
+}
+
 .pub-row {
   display: flex;
   align-items: center;
 }
+
 
 /* =========================
    Social Icons
@@ -18,6 +28,7 @@
   font-size: 1.15rem;
   line-height: 2.5rem;
   margin-right: 1rem;
+  transition: transform 0.2s ease;
 }
 
 .social-icons a:last-child {
@@ -26,20 +37,8 @@
 
 .social-icons a:hover {
   background-color: white;
-  color: black;
+  color: black !important;
   transform: scale(1.2);
-}
-
-@media (prefers-color-scheme: dark) {
-  .social-icons a {
-    color: #3eb7f0 !important;
-  }
-
-  .social-icons a:hover {
-    background-color: #20212b;
-    color: black;
-    transform: scale(1.2);
-  }
 }
 
 
@@ -155,7 +154,7 @@ email {
 
 
 /* =========================
-   Custom Text Elements
+   Custom Text
    ========================= */
 
 autocolor {
@@ -167,7 +166,7 @@ lightonly {
 }
 
 darkonly {
-  visibility: hidden;
+  display: none;
 }
 
 education {
@@ -178,34 +177,7 @@ education {
 papertitle {
   font-weight: 600;
   font-size: 100%;
-}
-
-
-/* =========================
-   Dark Mode
-   ========================= */
-
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: #20212b;
-    color: #dadbdf;
-  }
-
-  autocolor {
-    color: #dadbdf;
-  }
-
-  lightonly {
-    visibility: hidden;
-  }
-
-  darkonly {
-    visibility: visible;
-  }
-
-  papertitle {
-    color: #eeeff0;
-  }
+  color: #222;
 }
 
 
@@ -237,10 +209,6 @@ papertitle {
   width: 100%;
 }
 
-
-/* =========================
-   Profile Avatar
-   ========================= */
 
 /* =========================
    Profile Avatar
@@ -285,6 +253,7 @@ header .image.avatar {
    Headings
    ========================= */
 
+h1,
 h3,
 h4,
 h5,
@@ -296,8 +265,7 @@ h6 {
 
 h1 {
   font-weight: 500;
-  color: #043361;
-  margin: 0 0 20px;
+  font-size: 28px;
 }
 
 h2 {
@@ -307,25 +275,10 @@ h2 {
   font-size: 157%;
 }
 
-@media (prefers-color-scheme: dark) {
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    color: rgb(62, 183, 240);
-  }
-}
-
 h1,
 h2,
 h3 {
   line-height: 1.1;
-}
-
-h1 {
-  font-size: 28px;
 }
 
 
@@ -343,18 +296,12 @@ dl {
 }
 
 a {
-  color: #39c;
+  color: #3399cc;
   text-decoration: none;
 }
 
 a:hover {
-  color: #069;
-}
-
-@media (prefers-color-scheme: dark) {
-  a {
-    color: rgb(62, 183, 240);
-  }
+  color: #006699;
 }
 
 a small {
@@ -368,10 +315,20 @@ a:hover small {
   color: #777;
 }
 
+
+/* =========================
+   Main Wrapper
+   ========================= */
+
 .wrapper {
   width: 1050px;
   margin: 0 auto;
 }
+
+
+/* =========================
+   Blockquotes
+   ========================= */
 
 blockquote {
   border-left: 1px solid #e5e5e5;
@@ -379,6 +336,11 @@ blockquote {
   padding: 0 0 0 20px;
   font-style: italic;
 }
+
+
+/* =========================
+   Code
+   ========================= */
 
 code,
 pre {
@@ -431,13 +393,6 @@ th {
   color: #444;
 }
 
-@media (prefers-color-scheme: dark) {
-  th,
-  dt {
-    color: rgb(62, 183, 240);
-  }
-}
-
 
 /* =========================
    Global Images
@@ -456,7 +411,9 @@ header {
   width: 280px;
   float: left;
   position: fixed;
+
   -webkit-font-smoothing: subpixel-antialiased;
+
   padding-top: 4em;
   text-align: center;
 }
@@ -525,12 +482,6 @@ strong {
   font-weight: 500;
 }
 
-@media (prefers-color-scheme: dark) {
-  strong {
-    color: #eeeff0;
-  }
-}
-
 
 /* =========================
    Main Section
@@ -560,7 +511,7 @@ hr {
    ========================= */
 
 footer {
-  width: 232px;
+  width: 280px;
   float: left;
   position: fixed;
   bottom: 30px;
@@ -627,15 +578,20 @@ footer {
     word-wrap: normal;
   }
 
+  .image.avatar {
+    width: 220px !important;
+  }
+
   .image.avatar img {
-    width: 170px;
-    height: 170px;
-    padding: 0;
+    width: 220px !important;
+    height: 220px !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
   }
 
   #header .image.avatar,
   header .image.avatar {
-    width: 170px;
+    width: 220px !important;
   }
 
   #head1o2,
@@ -668,15 +624,20 @@ footer {
     width: 33%;
   }
 
+  .image.avatar {
+    width: 190px !important;
+  }
+
   .image.avatar img {
-    width: 145px;
-    height: 145px;
-    padding: 0;
+    width: 190px !important;
+    height: 190px !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
   }
 
   #header .image.avatar,
   header .image.avatar {
-    width: 145px;
+    width: 190px !important;
   }
 
   #head1o2,
@@ -687,7 +648,7 @@ footer {
 
 
 /* =========================
-   Printing
+   Print
    ========================= */
 
 @media print {
@@ -696,6 +657,7 @@ footer {
     padding: 0.4in;
     font-size: 12pt;
     color: #444;
+    background-color: white;
   }
 }
 
