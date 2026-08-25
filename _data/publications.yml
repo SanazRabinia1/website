@@ -53,7 +53,7 @@ main:
     conference_short: "SAGE"
     conference: "Transportation Research Record, SAGE Publications, 2020."
     pdf: ""
-    image: "./assets/img/sage-paper.png"
+    image: "./assets/img/sage.png"
     notes: "Accepted"
 
   - title: "A Comprehensive Study of Game Theory Applications for Smart Grids and Demand Side Management Programs, and Transportation Networks"
