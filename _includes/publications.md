@@ -74,7 +74,9 @@
 
       {% if link.notes %} 
       <strong>
-        <i style="color:#e74d3c; margin-left: 10px;">{{ link.notes }}</i>
+        <i style="color:#e74d3c; margin-left: 10px; display: inline-block;">
+          {{ link.notes }}
+        </i>
       </strong>
       {% endif %}
 
