@@ -24,7 +24,7 @@ main:
     image: "./assets/img/tpds2025-paper.png"
     notes: "Accepted"
 
-     - title: "Data Sharing-Aware Online Algorithms for Task Allocation in Edge Computing Systems"
+  - title: "Data Sharing-Aware Online Algorithms for Task Allocation in Edge Computing Systems"
     authors: "<strong>S. Rabinia</strong>, D. Grosu"
     conference_short: "EDGE_2024"
     conference: "IEEE International Conference on Edge Computing (EDGE), 2024."
@@ -40,7 +40,7 @@ main:
     image: "./assets/img/ccgrid-paper.png"
     notes: "Accepted"
 
-    - title: "Data Sharing-Aware Task Allocation in Edge Computing Systems"
+  - title: "Data Sharing-Aware Task Allocation in Edge Computing Systems"
     authors: "<strong>S. Rabinia</strong>, H. Mehryar, M. Brocanelli, D. Grosu"
     conference_short: "EDGE_2021"
     conference: "Proceedings of the IEEE International Conference on Edge Computing (IEEE EDGE 2021), December 18–20, 2021, Guangzhou, China."
@@ -56,7 +56,7 @@ main:
     image: "./assets/img/sage-paper.png"
     notes: "Accepted"
 
-    - title: "A Comprehensive Study of Game Theory Applications for Smart Grids and Demand Side Management Programs, and Transportation Networks"
+  - title: "A Comprehensive Study of Game Theory Applications for Smart Grids and Demand Side Management Programs, and Transportation Networks"
     authors: "A. Mohammadi, <strong>S. Rabinia</strong>"
     conference_short: "Book"
     conference: "Smart Microgrids, pp. 57–64, Springer, January 18, 2019."
