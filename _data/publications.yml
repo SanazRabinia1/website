@@ -4,7 +4,8 @@ main:
     authors: "A. Chavan, <strong>S. Rabinia</strong>, D. Grosu, M. Brocanelli"
     conference_short: "Networks"
     conference: "Networks, Vol. 88, No. 1, pp. 85–98, July 2026."
-    pdf: ""
+    pdf: "https://dgrosu.eng.wayne.edu/_resources/pdfs/net26-cpgr-cr.pdf"
+    code: "https://github.com/SanazRabinia1/CPGR-Paper"
     image: "./assets/img/network-paper.png"
     notes: "Accepted"
 
@@ -12,7 +13,8 @@ main:
     authors: "<strong>S. Rabinia</strong>, D. Grosu"
     conference_short: "TCC"
     conference: "IEEE Transactions on Cloud Computing (TCC), 2026."
-    pdf: ""
+    pdf: "https://ieeexplore.ieee.org/abstract/document/11535620"
+    code: "https://github.com/SanazRabinia1/DATA-SHARING-AWARE-TASK-ALLOCATION-ALGORITHMS-IN-EDGE-COMPUTING-SYSTEMS"
     image: "./assets/img/tcc-paper.png"
     notes: "Accepted"
 
@@ -20,7 +22,8 @@ main:
     authors: "<strong>S. Rabinia</strong>, N. Didar, D. Grosu, M. Brocanelli"
     conference_short: "TPDS"
     conference: "IEEE Transactions on Parallel and Distributed Systems (TPDS), 2024."
-    pdf: ""
+    pdf: "https://dgrosu.eng.wayne.edu/_resources/pdfs/tpds24-dsta.pdf"
+    code: "https://github.com/SanazRabinia1/DATA-SHARING-AWARE-TASK-ALLOCATION-ALGORITHMS-IN-EDGE-COMPUTING-SYSTEMS"
     image: "./assets/img/tpds2025-paper.png"
     notes: "Accepted"
 
@@ -28,7 +31,8 @@ main:
     authors: "<strong>S. Rabinia</strong>, D. Grosu"
     conference_short: "EDGE_2024"
     conference: "IEEE International Conference on Edge Computing (EDGE), 2024."
-    pdf: ""
+    pdf: "https://dgrosu.eng.wayne.edu/_resources/pdfs/edge24-sharing-cr.pdf"
+    code: "https://github.com/SanazRabinia1/DATA-SHARING-AWARE-TASK-ALLOCATION-ALGORITHMS-IN-EDGE-COMPUTING-SYSTEMS/tree/master/Online_Algorithms"
     image: "./assets/img/edge2024-paper.png"
     notes: "Accepted"
 
@@ -36,7 +40,8 @@ main:
     authors: "<strong>S. Rabinia</strong>, D. Grosu"
     conference_short: "CCGrid"
     conference: "IEEE International Symposium on Cluster, Cloud, and Internet Computing (CCGrid), 2024."
-    pdf: ""
+    pdf: "https://dgrosu.eng.wayne.edu/_resources/pdfs/ccgrid24-ds-cr.pdf"
+    code: "https://github.com/SanazRabinia1/DATA-SHARING-AWARE-TASK-ALLOCATION-ALGORITHMS-IN-EDGE-COMPUTING-SYSTEMS/tree/master/Online_Algorithms"
     image: "./assets/img/ccgrid-paper.png"
     notes: "Accepted"
 
@@ -44,7 +49,8 @@ main:
     authors: "<strong>S. Rabinia</strong>, H. Mehryar, M. Brocanelli, D. Grosu"
     conference_short: "EDGE_2021"
     conference: "Proceedings of the IEEE International Conference on Edge Computing (IEEE EDGE 2021), December 18–20, 2021, Guangzhou, China."
-    pdf: ""
+    pdf: "https://ieeexplore.ieee.org/abstract/document/9712158"
+    code: "https://github.com/SanazRabinia1/DATA-SHARING-AWARE-TASK-ALLOCATION-ALGORITHMS-IN-EDGE-COMPUTING-SYSTEMS/tree/master/Offline_Algorithms"
     image: "./assets/img/edge2021-paper.png"
     notes: "Accepted"
 
@@ -52,7 +58,7 @@ main:
     authors: "M. Kamyab, S. Remias, E. Najmi, <strong>S. Rabinia</strong>, J. M. Waddell"
     conference_short: "SAGE"
     conference: "Transportation Research Record, SAGE Publications, 2020."
-    pdf: ""
+    pdf: "https://journals.sagepub.com/doi/full/10.1177/0361198120927401"
     image: "./assets/img/sage.png"
     notes: "Accepted"
 
@@ -60,7 +66,7 @@ main:
     authors: "A. Mohammadi, <strong>S. Rabinia</strong>"
     conference_short: "Book"
     conference: "Smart Microgrids, pp. 57–64, Springer, January 18, 2019."
-    pdf: ""
+    pdf: "https://link.springer.com/chapter/10.1007/978-3-030-02656-1_5"
     image: "./assets/img/smart-paper.png"
     notes: "Book Chapter"
 
