@@ -247,6 +247,7 @@ papertitle {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 250px !important;
 }
 
 .image.avatar:before {
@@ -255,20 +256,20 @@ papertitle {
 
 .image.avatar img {
   display: block;
-  width: 190px;
-  height: 190px;
-  max-width: none;
-  padding: 0;
+  width: 250px !important;
+  height: 250px !important;
+  max-width: none !important;
+  padding: 0 !important;
+  margin: 0 auto;
 
   border-radius: 50%;
-
   object-fit: cover;
   object-position: center;
 }
 
 #header .image.avatar,
 header .image.avatar {
-  width: 190px;
+  width: 250px !important;
   margin: 0 auto 1.5em auto;
 }
 
