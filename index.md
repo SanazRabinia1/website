@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I earned my Ph.D. in Computer Science from Wayne State University, where I conducted my doctoral research under the supervision of [Dr. Daniel Grosu](http://dgrosu.eng.wayne.edu/) in the Parallel and Distributed Computing Lab. I earned my B.Sc. in Mathematics from Shahid Beheshti University in 2011 and my M.Sc. in Mathematics from Sharif University of Technology in 2013. I am also a student member of ACM and IEEE.
+I received my Ph.D. in Computer Science from Wayne State University, where I conducted my doctoral research under the supervision of [Dr. Daniel Grosu](http://dgrosu.eng.wayne.edu/) in the Parallel and Distributed Computing Lab. I earned my B.Sc. in Mathematics from Shahid Beheshti University in 2011 and my M.Sc. in Mathematics from Sharif University of Technology in 2013. I am also a student member of ACM and IEEE.
 
 ## Research Interests
 
