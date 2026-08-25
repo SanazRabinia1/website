@@ -10,11 +10,17 @@ layout: null
   </url>
 
   {% for page in site.pages %}
-    {% if page.url != "/" and page.url != "/sitemap.xml" %}
+    {% unless page.url contains "/assets/"
+       or page.url contains ".css"
+       or page.url contains ".js"
+       or page.url contains "DEPLOYMENT"
+       or page.url == "/sitemap.xml" %}
+      {% if page.url != "/" %}
   <url>
     <loc>{{ site.url }}{{ site.baseurl }}{{ page.url }}</loc>
   </url>
-    {% endif %}
+      {% endif %}
+    {% endunless %}
   {% endfor %}
 
 </urlset>
