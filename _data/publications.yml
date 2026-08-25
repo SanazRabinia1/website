@@ -42,11 +42,11 @@ main:
 
     - title: "Data Sharing-Aware Task Allocation in Edge Computing Systems"
     authors: "<strong>S. Rabinia</strong>, H. Mehryar, M. Brocanelli, D. Grosu"
-    conference_short: "EDGE"
+    conference_short: "EDGE_2021"
     conference: "Proceedings of the IEEE International Conference on Edge Computing (IEEE EDGE 2021), December 18–20, 2021, Guangzhou, China."
     pdf: ""
     image: "./assets/img/edge2021-paper.png"
-    notes: "Conference Paper"
+    notes: "Accepted"
 
   - title: "Machine Learning Approach to Forecast Work Zone Mobility using Probe Vehicle Data"
     authors: "M. Kamyab, S. Remias, E. Najmi, <strong>S. Rabinia</strong>, J. M. Waddell"
