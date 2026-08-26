@@ -684,3 +684,212 @@ footer {
   display: none;
   font-family: monospace;
 }
+
+/* =========================
+   Smooth Scrolling
+   ========================= */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding-top: 85px;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+
+/* =========================
+   Top Navigation Bar
+   ========================= */
+
+.top-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 70px;
+
+  background-color: #171717;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 22px;
+  box-sizing: border-box;
+
+  z-index: 9999;
+
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+
+/* =========================
+   Dark / Light Toggle
+   ========================= */
+
+.theme-toggle {
+  width: 48px;
+  height: 48px;
+
+  border-radius: 50%;
+  border: 2px solid white;
+
+  background-color: transparent;
+  color: white;
+
+  font-size: 27px;
+
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition:
+    background-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.theme-toggle:hover {
+  background-color: #333;
+  transform: scale(1.05);
+}
+
+
+/* =========================
+   Navigation Buttons
+   ========================= */
+
+.top-nav-links {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.top-nav-links a {
+  display: inline-block;
+
+  background-color: white;
+  color: #111 !important;
+
+  padding: 13px 28px;
+
+  border-radius: 12px;
+
+  font-size: 17px;
+  font-weight: 500;
+
+  text-decoration: none;
+
+  transition:
+    background-color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.top-nav-links a:hover {
+  background-color: #e8e8e8;
+  color: #111 !important;
+  transform: translateY(-1px);
+}
+
+
+/* =========================
+   Manual Dark Mode
+   ========================= */
+
+body.dark-theme {
+  background-color: #20212b;
+  color: #dadbdf;
+}
+
+body.dark-theme h1,
+body.dark-theme h2,
+body.dark-theme h3,
+body.dark-theme h4,
+body.dark-theme h5,
+body.dark-theme h6 {
+  color: rgb(62, 183, 240);
+}
+
+body.dark-theme strong {
+  color: #eeeff0;
+}
+
+body.dark-theme autocolor {
+  color: #dadbdf;
+}
+
+body.dark-theme papertitle {
+  color: #eeeff0;
+}
+
+body.dark-theme a {
+  color: rgb(62, 183, 240);
+}
+
+body.dark-theme .social-icons a {
+  color: rgb(62, 183, 240) !important;
+}
+
+
+/* Keep navbar buttons white in dark mode */
+
+body.dark-theme .top-nav-links a {
+  background-color: white;
+  color: #111 !important;
+}
+
+body.dark-theme .top-nav-links a:hover {
+  background-color: #e8e8e8;
+  color: #111 !important;
+}
+
+
+/* =========================
+   Section Scroll Offset
+   ========================= */
+
+#home,
+#news,
+#publications,
+#awards {
+  scroll-margin-top: 100px;
+}
+
+
+/* =========================
+   Tablet / Mobile Navbar
+   ========================= */
+
+@media screen and (max-width: 700px) {
+
+  body {
+    padding-top: 75px;
+  }
+
+  .top-navbar {
+    height: 62px;
+    padding: 0 10px;
+  }
+
+  .theme-toggle {
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+  }
+
+  .top-nav-links {
+    gap: 5px;
+  }
+
+  .top-nav-links a {
+    padding: 9px 10px;
+    font-size: 12px;
+    border-radius: 7px;
+  }
+}
