@@ -2,7 +2,7 @@
 layout: homepage
 ---
 
-## About Me
+## About Me {#home}
 
 I received my Ph.D. in Computer Science from Wayne State University, where I conducted my doctoral research under the supervision of [Dr. Daniel Grosu](http://dgrosu.eng.wayne.edu/) in the Parallel and Distributed Computing Lab. I earned my B.Sc. in Mathematics from Shahid Beheshti University in 2011 and my M.Sc. in Mathematics from Sharif University of Technology in 2013. I am also a student member of ACM and IEEE.
 
@@ -22,7 +22,7 @@ In addition to algorithmic research, I have applied machine learning and deep le
 
 Looking forward, I am excited about further innovation in algorithms, edge computing, applied machine learning, and AI, with an emphasis on solutions that address theoretical challenges while producing practical impact.
 
-## News
+## News {#news}
 
 - **[July 2025]** Defended my Ph.D. dissertation.
 - **[April 2025]** Received the 2025 Ralph H. Kummler Distinguished Achievement Award in Graduate Student Research, Wayne State University. [Award recipients](https://engineering.wayne.edu/news/wayne-state-engineering-phd-students-honored-with-kummler-awards-for-research-excellence-66096)
@@ -50,7 +50,7 @@ Looking forward, I am excited about further innovation in algorithms, edge compu
 
 {% include_relative _includes/publications.md %}
 
-## Awards and Honors
+## Awards and Honors {#awards}
 
 ### Awards and Recognitions
 
