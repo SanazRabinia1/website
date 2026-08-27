@@ -725,7 +725,7 @@ footer {
 
 
 /* =========================================================
-   TOP NAVIGATION BAR
+   TOP NAVIGATION
    ========================================================= */
 
 .top-navbar {
@@ -742,14 +742,12 @@ footer {
   box-sizing: border-box;
 
   z-index: 9999;
-
-  /* important: do not block clicks on page content */
   pointer-events: none;
 }
 
 
 /* =========================================================
-   DARK / LIGHT BUTTON — TOP LEFT
+   THEME BUTTON — TOP LEFT
    ========================================================= */
 
 .theme-toggle {
@@ -759,34 +757,24 @@ footer {
   height: 38px;
 
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+
+  background: white;
+  color: #043361;
 
   border: 1px solid #d0d7de;
   border-radius: 8px;
 
-  background: #ffffff;
-  color: #043361;
-
-  font-size: 20px;
   cursor: pointer;
+  font-size: 20px;
 
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-
-  transition:
-    background-color 0.2s ease,
-    color 0.2s ease,
-    border-color 0.2s ease,
-    transform 0.2s ease;
-}
-
-.theme-toggle:hover {
-  transform: translateY(-1px);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 
 
 /* =========================================================
-   NAVIGATION BOX — TOP RIGHT
+   NAVIGATION — TOP RIGHT
    ========================================================= */
 
 .top-nav-links {
@@ -794,46 +782,44 @@ footer {
 
   display: flex;
   align-items: center;
-  gap: 0;
 
-  background: #ffffff;
+  gap: 8px;
 
-  border: 1px solid #d0d7de;
-  border-radius: 9px;
-
-  overflow: hidden;
-
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  background: transparent;
+  border: none;
+  box-shadow: none;
 }
 
+
+/* EACH LINK IS ITS OWN BOX */
 
 .top-nav-links a {
   display: block;
 
-  padding: 9px 14px;
+  padding: 8px 13px;
+
+  background: white;
 
   color: #043361;
   text-decoration: none;
 
+  border: 1px solid #d0d7de;
+  border-radius: 7px;
+
   font-size: 15px;
   font-weight: 500;
 
-  border-right: 1px solid #e5e7eb;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
 
-  transition:
-    background-color 0.2s ease,
-    color 0.2s ease;
-}
-
-
-.top-nav-links a:last-child {
-  border-right: none;
+  transition: 0.2s ease;
 }
 
 
 .top-nav-links a:hover {
-  background: #f3f6f9;
+  background: #f2f5f8;
   color: #0066aa;
+
+  transform: translateY(-1px);
 }
 
 
@@ -847,8 +833,6 @@ body.dark-theme {
 }
 
 
-/* headings */
-
 body.dark-theme h1,
 body.dark-theme h2,
 body.dark-theme h3,
@@ -859,72 +843,60 @@ body.dark-theme h6 {
 }
 
 
-/* regular text */
-
 body.dark-theme p,
 body.dark-theme li,
 body.dark-theme span,
 body.dark-theme email,
 body.dark-theme autocolor {
-  color: #dadbdf;
+  color: #dadbdf !important;
 }
 
-
-/* links */
 
 body.dark-theme a {
   color: #3eb7f0;
 }
 
 
-/* top navigation */
+/* Individual navigation boxes in dark mode */
 
 body.dark-theme .top-nav-links {
-  background: #292b36;
-
-  border-color: #484b59;
-
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+  background: transparent;
 }
 
 
 body.dark-theme .top-nav-links a {
+  background: #292b36;
+
   color: #dadbdf;
 
-  border-right-color: #484b59;
+  border-color: #484b59;
+
+  box-shadow: 0 2px 7px rgba(0,0,0,0.35);
 }
 
 
 body.dark-theme .top-nav-links a:hover {
-  background: #363946;
+  background: #373946;
+
   color: #3eb7f0;
 }
 
 
-/* theme button */
+/* Dark mode button */
 
 body.dark-theme .theme-toggle {
   background: #292b36;
-  color: #f5f5f5;
+
+  color: white;
+
   border-color: #484b59;
 }
 
 
-/* social icons */
-
-body.dark-theme .social-icons a {
-  color: #3eb7f0 !important;
-}
-
-
-/* strong / bold text */
-
 body.dark-theme strong {
-  color: #ffffff;
+  color: white;
 }
 
-
-/* code */
 
 body.dark-theme code {
   color: #e6e6e6;
@@ -939,19 +911,27 @@ body.dark-theme code {
 
   .top-navbar {
     top: 10px;
+
     padding: 0 12px;
   }
 
 
+  .top-nav-links {
+    gap: 4px;
+  }
+
+
   .top-nav-links a {
-    padding: 7px 8px;
-    font-size: 12px;
+    padding: 6px 7px;
+
+    font-size: 11px;
   }
 
 
   .theme-toggle {
     width: 32px;
     height: 32px;
+
     font-size: 17px;
   }
 }
