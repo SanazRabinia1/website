@@ -6,12 +6,12 @@ permalink: /projects/
 
 # Projects
 
-Here you can find some of my selected projects.
+Here you can find some of my selected projects. Stay tuned!
 
-## Project 1
+<!--## Project 1
 
 Description of the project goes here.
 
 ## Project 2
 
-Description of the project goes here.
+Description of the project goes here.-->
