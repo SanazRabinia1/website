@@ -897,3 +897,27 @@ body.dark-theme .top-nav-links a:hover {
 .social-icons a {
   font-size: 32px !important;
 }
+
+/* =========================
+   PDF / Code buttons - Dark Mode
+   ========================= */
+
+body.dark-theme .pub-row a {
+  background-color: #e5e7eb !important;
+  color: #20212b !important;
+
+  border: 1px solid #bfc3c9 !important;
+  border-radius: 3px;
+
+  padding: 4px 12px;
+
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+body.dark-theme .pub-row a:hover {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  border-color: #ffffff !important;
+}
