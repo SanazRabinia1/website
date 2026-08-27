@@ -902,22 +902,31 @@ body.dark-theme .top-nav-links a:hover {
    PDF / Code buttons - Dark Mode
    ========================= */
 
-body.dark-theme .pub-row a {
-  background-color: #e5e7eb !important;
-  color: #20212b !important;
+/* =========================
+   Publications - Dark Mode
+   ========================= */
 
-  border: 1px solid #bfc3c9 !important;
-  border-radius: 3px;
-
-  padding: 4px 12px;
-
-  transition:
-    background-color 0.2s ease,
-    color 0.2s ease;
+/* Paper title: text only, NO box */
+body.dark-theme .pub-row papertitle,
+body.dark-theme .pub-row papertitle a {
+  background: transparent !important;
+  border: none !important;
+  padding: 0 !important;
+  color: #eeeeee !important;
+  box-shadow: none !important;
 }
 
-body.dark-theme .pub-row a:hover {
-  background-color: #ffffff !important;
-  color: #000000 !important;
-  border-color: #ffffff !important;
+/* PDF and Code buttons */
+body.dark-theme .pub-row a:not(papertitle a) {
+  background-color: #e5e7eb !important;
+  color: #20212b !important;
+  border: 1px solid #bfc3c9 !important;
+  border-radius: 3px;
+}
+
+/* Paper title stays text-only on hover */
+body.dark-theme .pub-row papertitle a:hover {
+  background: transparent !important;
+  color: #ffffff !important;
+  border: none !important;
 }
