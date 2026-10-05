@@ -55,6 +55,7 @@ Looking forward, I am excited about further innovation in algorithms, edge compu
 
 ### Awards and Recognitions
 
+- 2026 IEEE TCSC (Technical Committee on Scalable Computing) Outstanding Ph.D. Dissertation Award.
 - 2025 Ralph H. Kummler Distinguished Achievement Award in Graduate Student Research, Wayne State University, April 2025.
 - 2024 ACM Certificate of Recognition as one of the top five posters presented at Tapia 2024, September 2024.
 - Finalist in the Doctoral Consortium Track to present my doctoral dissertation at CMD-IT/Tapia Conference 2024.
