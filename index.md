@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me {#home}
 
-I received my Ph.D. in Computer Science from Wayne State University, where I conducted my doctoral research under the supervision of [Dr. Daniel Grosu](http://dgrosu.eng.wayne.edu/) in the Parallel and Distributed Computing Lab. I earned my B.Sc. in Mathematics from Shahid Beheshti University in 2011 and my M.Sc. in Mathematics from Sharif University of Technology in 2013. I am also a student member of ACM and IEEE.
+I received my Ph.D. in Computer Science from Wayne State University, where I conducted my doctoral research under the supervision of [Dr. Daniel Grosu](http://dgrosu.eng.wayne.edu/) in the Parallel and Distributed Computing Lab. I recieved my B.Sc. in Mathematics from Shahid Beheshti University in 2011 and my M.Sc. in Mathematics from Sharif University of Technology in 2013. I am also a student member of ACM and IEEE.
 
 ## Research Interests
 
@@ -14,7 +14,7 @@ Edge Computing, Cloud Computing, Parallel Algorithms, Randomized Algorithms, App
 
 My research direction lies in algorithm design, combinatorial optimization, and applied machine learning/AI. I specialize in developing innovative solutions for edge computing, large-scale graph algorithms, predictive modeling, and AI-driven applications.
 
-In edge computing, I have designed several offline and online algorithms for task allocation in edge computing systems, considering data sharing among tasks offloaded to the same server. These works received the **2024 NCWIT AiC Collegiate Award – Honorable Mention** from the National Center for Women & Information Technology (NCWIT) and the **2025 Ralph H. Kummler Distinguished Achievement Award** from Wayne State University for their contributions to algorithms and edge computing systems.
+In edge computing, I have designed several offline and online algorithms for task allocation in edge computing systems, considering data sharing among tasks offloaded to the same server. These works received the **2024 NCWIT AiC Collegiate Award – Honorable Mention** from the National Center for Women & Information Technology (NCWIT), the **2025 Ralph H. Kummler Distinguished Achievement Award** from Wayne State University, and the **2026 IEEE TCSC Outstanding Ph.D. Dissertation Award** from the IEEE Technical Committee on Scalable Computing (TCSC) for their contributions to algorithms and edge computing systems.
 
 Within combinatorial optimization, we introduced several sequential, parallel, and randomized algorithms for graph compression involving partitioning graphs into bipartite cliques. For experimental analysis, I have used resources including Wayne State University's Grid supercomputer and the Pittsburgh Supercomputing Center's Bridges-2 system. My research has involved Java, C++, C, Python, R, OpenMP, MPI, and SQL.
 
