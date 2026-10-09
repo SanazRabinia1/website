@@ -6,7 +6,7 @@ main:
     conference: "IEEE Transactions on Parallel and Distributed Systems, 2026"
     pdf: "."
     #code: "https://github.com/SanazRabinia1/CPGR-Paper"
-    image: "./assets/img/network-paper.png"
+    image: "./assets/img/TPDS_2026.png"
     notes: "Accepted"
 
   - title: "Speeding-Up Graph Algorithms via Clique Partitioning"
