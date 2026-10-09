@@ -12,7 +12,7 @@ main:
   - title: "Online Algorithms for Data Sharing-Aware Task Allocation in Edge Computing Systems"
     authors: "<strong>S. Rabinia</strong>, D. Grosu"
     conference_short: "TCC"
-    conference: "IEEE Transactions on Cloud Computing (TCC), 2026."
+    conference: "IEEE Transactions on Cloud Computing (TCC), Vol. 14, No. 3, pp. 1989-2004, September 2026."
     pdf: "https://ieeexplore.ieee.org/abstract/document/11535620"
     code: "https://github.com/SanazRabinia1/DATA-SHARING-AWARE-TASK-ALLOCATION-ALGORITHMS-IN-EDGE-COMPUTING-SYSTEMS"
     image: "./assets/img/tcc-paper.png"
