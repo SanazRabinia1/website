@@ -67,7 +67,7 @@ main:
     authors: "M. Kamyab, S. Remias, E. Najmi, <strong>S. Rabinia</strong>, J. M. Waddell"
     conference_short: "SAGE"
     conference: "Transportation Research Record, SAGE Publications, Vol. 2674, No. 9, pp. 157-167, July 12, 2020."
-    pdf: "https://journals.sagepub.com/doi/full/10.1177/0361198120927401"
+    pdf: "./assets/papers/kamyab-et-al-2020-machine-learning-approach-to-forecast-work-zone-mobility-using-probe-vehicle-data (1).pdf"
     image: "./assets/img/sage.png"
     #notes: "Accepted"
 
