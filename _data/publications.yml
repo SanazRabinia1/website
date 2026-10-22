@@ -7,7 +7,7 @@ main:
     pdf: "."
     #code: "https://github.com/SanazRabinia1/CPGR-Paper"
     image: "./assets/img/TPDS_2026.png"
-    notes: "Accepted"
+    #notes: "Accepted"
 
   - title: "Speeding-Up Graph Algorithms via Clique Partitioning"
     authors: "A. Chavan, <strong>S. Rabinia</strong>, D. Grosu, M. Brocanelli"
@@ -16,7 +16,7 @@ main:
     pdf: "https://dgrosu.eng.wayne.edu/_resources/pdfs/net26-cpgr-cr.pdf"
     #code: "https://github.com/SanazRabinia1/CPGR-Paper"
     image: "./assets/img/network-paper.png"
-    notes: "Accepted"
+    #notes: "Accepted"
 
   - title: "Online Algorithms for Data Sharing-Aware Task Allocation in Edge Computing Systems"
     authors: "<strong>S. Rabinia</strong>, D. Grosu"
@@ -25,7 +25,7 @@ main:
     pdf: "https://ieeexplore.ieee.org/abstract/document/11535620"
     #code: "https://github.com/SanazRabinia1/DATA-SHARING-AWARE-TASK-ALLOCATION-ALGORITHMS-IN-EDGE-COMPUTING-SYSTEMS"
     image: "./assets/img/tcc-paper.png"
-    notes: "Accepted"
+    #notes: "Accepted"
 
   - title: "Algorithms for Data Sharing-Aware Task Allocation in Edge Computing Systems"
     authors: "<strong>S. Rabinia</strong>, N. Didar, D. Grosu, M. Brocanelli"
@@ -34,7 +34,7 @@ main:
     pdf: "https://dgrosu.eng.wayne.edu/_resources/pdfs/tpds24-dsta.pdf"
     #code: "https://github.com/SanazRabinia1/DATA-SHARING-AWARE-TASK-ALLOCATION-ALGORITHMS-IN-EDGE-COMPUTING-SYSTEMS"
     image: "./assets/img/tpds2025-paper.png"
-    notes: "Accepted"
+    #notes: "Accepted"
 
   - title: "Data Sharing-Aware Online Algorithms for Task Allocation in Edge Computing Systems"
     authors: "<strong>S. Rabinia</strong>, D. Grosu"
@@ -43,7 +43,7 @@ main:
     pdf: "https://dgrosu.eng.wayne.edu/_resources/pdfs/edge24-sharing-cr.pdf"
     #code: "https://github.com/SanazRabinia1/DATA-SHARING-AWARE-TASK-ALLOCATION-ALGORITHMS-IN-EDGE-COMPUTING-SYSTEMS/tree/master/Online_Algorithms"
     image: "./assets/img/edge2024-paper.png"
-    notes: "Accepted"
+    #notes: "Accepted"
 
   - title: "Data Sharing-Aware Algorithms for Task Allocation in Edge Computing Systems"
     authors: "<strong>S. Rabinia</strong>, D. Grosu"
@@ -52,7 +52,7 @@ main:
     pdf: "https://dgrosu.eng.wayne.edu/_resources/pdfs/ccgrid24-ds-cr.pdf"
     #code: "https://github.com/SanazRabinia1/DATA-SHARING-AWARE-TASK-ALLOCATION-ALGORITHMS-IN-EDGE-COMPUTING-SYSTEMS/tree/master/Online_Algorithms"
     image: "./assets/img/ccgrid-paper.png"
-    notes: "Accepted"
+    #notes: "Accepted"
 
   - title: "Data Sharing-Aware Task Allocation in Edge Computing Systems"
     authors: "<strong>S. Rabinia</strong>, H. Mehryar, M. Brocanelli, D. Grosu"
@@ -61,7 +61,7 @@ main:
     pdf: "https://ieeexplore.ieee.org/abstract/document/9712158"
     #code: "https://github.com/SanazRabinia1/DATA-SHARING-AWARE-TASK-ALLOCATION-ALGORITHMS-IN-EDGE-COMPUTING-SYSTEMS/tree/master/Offline_Algorithms"
     image: "./assets/img/edge2021-paper.png"
-    notes: "Accepted"
+    #notes: "Accepted"
 
   - title: "Machine Learning Approach to Forecast Work Zone Mobility using Probe Vehicle Data"
     authors: "M. Kamyab, S. Remias, E. Najmi, <strong>S. Rabinia</strong>, J. M. Waddell"
@@ -69,7 +69,7 @@ main:
     conference: "Transportation Research Record, SAGE Publications, Vol. 2674, No. 9, pp. 157-167, July 12, 2020."
     pdf: "https://journals.sagepub.com/doi/full/10.1177/0361198120927401"
     image: "./assets/img/sage.png"
-    notes: "Accepted"
+    #notes: "Accepted"
 
   - title: "A Comprehensive Study of Game Theory Applications for Smart Grids and Demand Side Management Programs, and Transportation Networks"
     authors: "A. Mohammadi, <strong>S. Rabinia</strong>"
@@ -77,6 +77,6 @@ main:
     conference: "Smart Microgrids, pp. 57–64, Springer, January 18, 2019."
     pdf: "https://link.springer.com/chapter/10.1007/978-3-030-02656-1_5"
     image: "./assets/img/smart-paper.png"
-    notes: "Book Chapter"
+    #notes: "Book Chapter"
 
  
