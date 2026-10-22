@@ -24,7 +24,7 @@ Looking forward, I am excited about further innovation in algorithms, edge compu
 
 ## News {#news}
 
-- **[October 2026]** Received the 2026 IEEE TCSC (Technical Committee on Scalable Computing) Outstanding Ph.D. Dissertation Award.
+- **[October 2026]** Received the 2026 IEEE Technical Committee on Scalable Computing (TCSC) Outstanding Ph.D. Dissertation Award.
 - **[July 2025]** Defended my Ph.D. dissertation.
 - **[April 2025]** Received the 2025 Ralph H. Kummler Distinguished Achievement Award in Graduate Student Research, Wayne State University. [Award recipients](https://engineering.wayne.edu/news/wayne-state-engineering-phd-students-honored-with-kummler-awards-for-research-excellence-66096)
 - **[October 2024]** Panelist at the Michigan Council of Women in Technology Foundation Conference (MICWIC).
@@ -55,7 +55,7 @@ Looking forward, I am excited about further innovation in algorithms, edge compu
 
 ### Awards and Recognitions
 
-- 2026 IEEE TCSC (Technical Committee on Scalable Computing) Outstanding Ph.D. Dissertation Award.
+- 2026 IEEE Technical Committee on Scalable Computing (TCSC) Outstanding Ph.D. Dissertation Award.
 - 2025 Ralph H. Kummler Distinguished Achievement Award in Graduate Student Research, Wayne State University, April 2025.
 - 2024 ACM Certificate of Recognition as one of the top five posters presented at Tapia 2024, September 2024.
 - Finalist in the Doctoral Consortium Track to present my doctoral dissertation at CMD-IT/Tapia Conference 2024.
