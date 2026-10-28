@@ -3,7 +3,7 @@ main:
   - title: "Speeding-up Graph Algorithms via Parallel Randomized Clique Partitioning"
     authors: "A. Chavan, <strong>S. Rabinia</strong>, D. Grosu, M. Brocanelli"
     conference_short: "TPDS_2026"
-    conference: "IEEE Transactions on Parallel and Distributed Systems, 2026"
+    conference: "IEEE Transactions on Parallel and Distributed Systems, October 2026"
     pdf: "./assets/papers/Speeding-up_Graph_Algorithms_via_Parallel_Randomized_Clique_Partitioning.pdf"
     #code: "https://github.com/SanazRabinia1/CPGR-Paper"
     image: "./assets/img/TPDS_2026.png"
